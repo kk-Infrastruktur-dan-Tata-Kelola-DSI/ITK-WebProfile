@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    
+    /* ITK Lab Custom Colors */
+    --color-itk-green: #008000;
+    --color-itk-green-light: #00FF66;
+    --color-itk-green-dark: #006600;
+    --color-itk-gray: #6b7280;
+    --color-itk-gray-light: #f3f4f6;
+    --color-itk-gray-dark: #374151;
+}
